@@ -1,0 +1,32 @@
+[
+    {
+        "name": "home",
+        "path": "/",
+        "external": false,
+        "icon": "faHome"
+    },
+    {
+        "name": "about",
+        "path": "/about",
+        "external": false,
+        "icon": "faAddressCard"
+    },
+    {
+        "name": "projects",
+        "path": "/projects",
+        "external": false,
+        "icon": "faDiagramProject"
+    },
+    {
+        "name": "github",
+        "path": "https://github.com/AlexTaures",
+        "external": true,
+        "icon": "faGithub"
+    },
+    {
+        "name": "linkedin",
+        "path": "http://linkedin.com/in/alex-taures",
+        "external": true,
+        "icon": "faLinkedin"
+    }
+]
