@@ -1,0 +1,34 @@
+{
+    "title": "PERSONAL INFORMATION",
+    "name": "Oscar Alexander Taures Díaz",
+    "grade": {
+        "text": "Grade",
+        "info": "Industrial Engineer"
+    },
+    "developer": {
+        "text": "Developer Speciality",
+        "info": "Full Stack"
+    },
+    "country": {
+        "text": "Country",
+        "info": "El Salvador",
+        "icon": "SV"
+    },
+    "email": {
+        "text": "Email",
+        "info": "alextauresdiaz@gmail.com"
+    },
+    "languages": {
+        "text": "Languages",
+        "list": [
+            {
+                "language": "Spanish",
+                "level": "Native"
+            },
+            {
+                "language": "English",
+                "level": "Intermidiate"
+            }
+        ]
+    }
+}

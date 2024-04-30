@@ -1,0 +1,27 @@
+{
+    "headers":{
+        "title": "TECH / DIGITAL SKILLS",
+        "reference_text": "LEVEL REFERENCE",
+        "referencies": [
+            {
+                "text": "Basic",
+                "level": 1
+            },
+            {
+                "text": "Intermidiate",
+                "level": 2
+            },
+            {
+                "text": "Advanced",
+                "level": 3
+            }
+        ]
+    },
+    "skills": [
+        {
+            "icon": "faHtml5",
+            "text": "Html",
+            "level": 2
+        }
+    ]
+}
