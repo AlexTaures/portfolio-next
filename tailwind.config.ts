@@ -10,6 +10,11 @@ const config: Config = {
     fontSize: {
       menuIcons: '1.5em',
       menuText: '1em'
+    },
+    extend: {
+      colors: {
+        'orange-enphasis': '#e5421f'
+      }
     }
   },
   plugins: [],

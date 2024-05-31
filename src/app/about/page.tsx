@@ -13,7 +13,7 @@ function AboutPage() {
           <p className="text-center mt-2">{info.name}</p>
         </div>
         <div className="grid grid-cols-2 mx-5 my-5 w-[500px] gap-3">
-          <p className="col-span-2 border-l-orange-700 border-l-4 pl-2 mb-2"><strong className="text-[2em] table-caption text-orange-700">{info.title}</strong></p>
+          <p className="col-span-2 border-l-orange-enphasis border-l-4 pl-2 mb-2"><strong className="text-[2em] table-caption text-orange-enphasis font-black">{info.title}</strong></p>
           <strong>{info.grade.text}</strong>{info.grade.info}
           <strong>{info.developer.text}</strong>{info.developer.info}
           <strong>{info.country.text}</strong><span className="flex items-center gap-2">{info.country.info}<ReactCountryFlag countryCode={info.country.icon} style={{
