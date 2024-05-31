@@ -1,7 +1,7 @@
 'use client'
 import { usePathname, useRouter } from 'next/navigation'
 import { Links } from "@/app/types/Links"
-import paths from "@/app/components/Header/paths.json"
+import { paths } from "@/app/data"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { HeaderLibrary } from '@/app/icons'
 import { useEffect } from 'react'

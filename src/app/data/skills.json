@@ -1,0 +1,62 @@
+{
+    "headers":{
+        "title": "TECH / DIGITAL SKILLS",
+        "reference_text": "LEVEL REFERENCE",
+        "referencies": [
+            {
+                "text": "Basic",
+                "level": 1
+            },
+            {
+                "text": "Intermidiate",
+                "level": 2
+            },
+            {
+                "text": "Advanced",
+                "level": 3
+            }
+        ]
+    },
+    "skills": [
+        {
+            "icon": "faHtml5",
+            "text": "Html",
+            "level": 3
+        },
+        {
+            "icon": "faJs",
+            "text": "JavaScript",
+            "level": 3
+        },
+        {
+            "icon": "faCss3Alt",
+            "text": "CSS",
+            "level": 3
+        },
+        {
+            "icon": "faReact",
+            "text": "React JS",
+            "level": 3
+        },
+        {
+            "icon": "faLaravel",
+            "text": "Laravel",
+            "level": 2
+        },
+        {
+            "icon": "faDatabase",
+            "text": "PostgreSQL",
+            "level": 3
+        },
+        {
+            "icon": "faPython",
+            "text": "Python",
+            "level": 2
+        },
+        {
+            "icon": "faNodeJs",
+            "text": "Node JS",
+            "level": 2
+        }
+    ]
+}

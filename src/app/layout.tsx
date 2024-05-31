@@ -19,10 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="h-screen bg-white">
+        <div className="bg-white mb-5">
           <Header/>
           {children}
         </div>
+        <footer className='text-gray-700 bg-white fixed bottom-0 flex justify-center w-full'>&copy;  Oscar Taures - Copyright 2024</footer>
       </body>
     </html>
   );

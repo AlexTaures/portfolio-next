@@ -1,6 +1,7 @@
 import React from 'react'
-import skills from '@/app/about/Skills/skills.json'
-import { type } from 'os';
+import { skills } from '@/app/data'
+import { SkillsLibrary } from '@/app/icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Skills() {
   type skillParameters = {
@@ -17,27 +18,32 @@ export default function Skills() {
   const skillGraph = (skill: skillObj, params: skillParameters) => {
     const color = params.color?params.color:"text-black";
     const size = params.size?`text-[${params.size}]`:"text-[1em]"
-    const classes = `${color} ${size} flex`;
+    const classes = `${color} ${size} flex items-center justify-between w-[220px] mx-auto
+    my-3`;
     return (
       <div className={classes}>
-        <span>{skill.text}</span>
+        {skill.icon?<FontAwesomeIcon icon={SkillsLibrary[skill.icon]} className=''/>:false}
+        <span className=''><strong>{skill.text}</strong></span>
         <div className='grid grid-cols-3 gap-1 w-20 mx-2'>
           <div className={`w-5 h-5 bg-orange-700`}></div>
-          <div className={`w-5 h-5 ${skill.level <= 2? "bg-orange-700":"bg-slate-500"}`}></div>
-          <div className={`w-5 h-5 ${skill.level <= 3? "bg-orange-700":"bg-slate-500"}`}></div>
+          <div className={`w-5 h-5 ${skill.level >= 2? "bg-orange-700":"bg-slate-500"}`}></div>
+          <div className={`w-5 h-5 ${skill.level > 2 ? "bg-orange-700":"bg-slate-500"}`}></div>
         </div>
       </div>
     )
   }
 
   return (
-    <div>
-      {skills.skills.map((item, index) => {
-        return skillGraph(item, {
-          color: "text-black",
-          size: "1.2em"
-        })
-      })}
-    </div>
+    <section className='mx-6 mt-10'>
+      <div><p className="col-span-2 border-l-orange-700 border-l-4 pl-2 mb-2"><strong className="text-[2em] text-orange-700">{skills.headers.title}</strong></p></div>
+      <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'>
+        {skills.skills.map((item, index) => {
+          return skillGraph(item, {
+            color: "text-black",
+            size: "1.2em"
+          })
+        })}
+      </div>
+    </section>
   )
 }

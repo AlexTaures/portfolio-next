@@ -1,4 +1,4 @@
-import info from "@/app/about/personal_information.json"
+import {personal_information as info} from "@/app/data"
 import ReactCountryFlag from 'react-country-flag'
 import photo from '@/resources/images/profilePhoto.jpg'
 import Skills from "@/app/about/Skills/Skills"
