@@ -1,6 +1,10 @@
+import Projects from "./projects/Projects"
+
 function ProjectsPage() {
   return (
-    <div>Projects</div>
+    <div>
+      <Projects/>
+    </div>
   )
 }
 

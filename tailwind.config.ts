@@ -13,7 +13,8 @@ const config: Config = {
     },
     extend: {
       colors: {
-        'orange-enphasis': '#e5421f'
+        'orange-enphasis': '#e5421f',
+        'gray-enphasis': '#656565'
       }
     }
   },
