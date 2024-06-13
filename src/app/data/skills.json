@@ -21,42 +21,50 @@
         {
             "icon": "faHtml5",
             "text": "Html",
-            "level": 3
+            "level": 3,
+            "defaultColor": "#db4427"
         },
         {
             "icon": "faJs",
             "text": "JavaScript",
-            "level": 3
+            "level": 3,
+            "defaultColor": "#e5a42d"
         },
         {
             "icon": "faCss3Alt",
             "text": "CSS",
-            "level": 3
+            "level": 3,
+            "defaultColor": "#2899f3"
         },
         {
             "icon": "faReact",
             "text": "React JS",
-            "level": 3
+            "level": 3,
+            "defaultColor": "#66dbfb"
         },
         {
             "icon": "faLaravel",
             "text": "Laravel",
-            "level": 2
+            "level": 2,
+            "defaultColor": "#ff1108"
         },
         {
             "icon": "faDatabase",
             "text": "PostgreSQL",
-            "level": 3
+            "level": 3,
+            "defaultColor": "#396c94"
         },
         {
             "icon": "faPython",
             "text": "Python",
-            "level": 2
+            "level": 2,
+            "defaultColor": "#295d6b"
         },
         {
             "icon": "faNodeJs",
             "text": "Node JS",
-            "level": 2
+            "level": 2,
+            "defaultColor": "#58a149"
         }
     ]
 }

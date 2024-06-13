@@ -4,27 +4,35 @@
         "image": "https://alextaures.github.io/portfolio/static/media/pokeapi.008dd10d4e2d74966f57.jpg",
         "content": "The project uses pokemon data extrated from 'pokeapi.co', using React Js for map cards by type.", 
         "date": "2022-12-01", 
-        "url": "https://alextaures.github.io/pkmn-project/"
+        "url": "https://alextaures.github.io/pkmn-project/",
+        "skills": ["React JS", "Html", "CSS"],
+        "complexity": 1
     },
     {
         "title": "FRONTEND-BACKEND PROJECT", 
         "image": "https://alextaures.github.io/portfolio/static/media/amazont.1b16f4edf7bb94ef746d.jpg",
         "content": "Final Project for Full Stack Jr Kodigo.org, simulating a virtual shop,  frontend and backend", 
         "date": "2023-02-01", 
-        "url": "https://alextaures.github.io/Team1_FrontEnd/"
+        "url": "https://alextaures.github.io/Team1_FrontEnd/",
+        "skills": ["React JS", "Html", "CSS", "Laravel"],
+        "complexity": 2
     },
     {
         "title": "SIMPLE CANDLE SHOP", 
         "image": "https://alextaures.github.io/portfolio/static/media/candles.51afa6e7a40d0e259632.jpg",
         "content": "'freelancer.com' constest project", 
         "date": "2023-03-01", 
-        "url": "https://alextaures.github.io/BreezyCandles/"
+        "url": "https://alextaures.github.io/BreezyCandles/",
+        "skills": ["React JS", "Html", "CSS"],
+        "complexity": 1
     },
     {
         "title": "CORPORATE WEBSITE FRONTEND", 
         "image": "https://alextaures.github.io/portfolio/static/media/rf_corporate.4ce250465b49712352aa.jpg",
         "content": "'freelancer.com' constest project", 
         "date": "2023-03-02", 
-        "url": "https://alextaures.github.io/rf_corporate_desing/"
+        "url": "https://alextaures.github.io/rf_corporate_desing/",
+        "skills": ["React JS", "Html", "CSS"],
+        "complexity": 2
     }
 ]

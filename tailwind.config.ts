@@ -15,7 +15,10 @@ const config: Config = {
       colors: {
         'orange-enphasis': '#e5421f',
         'gray-enphasis': '#656565'
-      }
+      },
+    screens: {
+      'xxs': '250px'
+    }
     }
   },
   plugins: [],

@@ -22,7 +22,7 @@ export default function Skills() {
     my-3`;
     return (
       <div className={classes}>
-        {skill.icon?<FontAwesomeIcon icon={SkillsLibrary[skill.icon]} className=''/>:false}
+        {skill.icon?<FontAwesomeIcon icon={SkillsLibrary[skill.icon]}/>:false}
         <span className=''><strong>{skill.text}</strong></span>
         <div className='grid grid-cols-3 gap-1 w-20 mx-2'>
           <div className={`w-5 h-5 bg-orange-enphasis`}></div>
