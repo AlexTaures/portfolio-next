@@ -1,0 +1,44 @@
+$w-change: 412px; // phone screen
+
+@media screen and (max-width: $w-change) {
+    #header-links-inline {
+        display: none;
+    }
+
+    #header-links-block, #menu-btn {
+        display: block;
+    }
+
+    #main-logo{
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: $w-change) {
+    #header-links-inline {
+        display: flex;
+    }
+
+    #header-container{
+        margin-right: 8%;
+    }
+
+    #header-links-block, #menu-btn {
+        display: none;
+    }
+}
+
+#header-container{
+    overflow-x: clip;
+}
+
+#header-links-block{
+    transition: 500ms;
+}
+.menu-show{
+    transform: translateX(0);
+}
+
+.menu-hide{
+    transform: translateX(100vh);
+}

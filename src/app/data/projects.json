@@ -5,7 +5,7 @@
         "content": "The project uses pokemon data extrated from 'pokeapi.co', using React Js for map cards by type.", 
         "date": "2022-12-01", 
         "url": "https://alextaures.github.io/pkmn-project/",
-        "skills": ["React JS", "Html", "CSS"],
+        "skills": ["React JS", "Html", "CSS", "Javascript"],
         "complexity": 1
     },
     {
@@ -14,7 +14,7 @@
         "content": "Final Project for Full Stack Jr Kodigo.org, simulating a virtual shop,  frontend and backend", 
         "date": "2023-02-01", 
         "url": "https://alextaures.github.io/Team1_FrontEnd/",
-        "skills": ["React JS", "Html", "CSS", "Laravel"],
+        "skills": ["React JS", "Html", "CSS", "Laravel", "Javascript"],
         "complexity": 2
     },
     {
@@ -23,7 +23,7 @@
         "content": "'freelancer.com' constest project", 
         "date": "2023-03-01", 
         "url": "https://alextaures.github.io/BreezyCandles/",
-        "skills": ["React JS", "Html", "CSS"],
+        "skills": ["React JS", "Html", "CSS", "Javascript"],
         "complexity": 1
     },
     {
@@ -32,7 +32,7 @@
         "content": "'freelancer.com' constest project", 
         "date": "2023-03-02", 
         "url": "https://alextaures.github.io/rf_corporate_desing/",
-        "skills": ["React JS", "Html", "CSS"],
+        "skills": ["React JS", "Html", "CSS", "Javascript"],
         "complexity": 2
     }
 ]

@@ -30,13 +30,13 @@ export default function Projects() {
                     <p className='font-bold text-gray-enphasis'><strong>{ formatDate(params.date, 'Mth-yyyy') }</strong></p>
                 </div>
                 <div className='skill-list absolute bottom-1 right-0 min-[250px]:flex justify-between w-full px-2'>
-                    <p className='text-black text-[0.8em] flex items-center gap-2'><strong>Complexity:</strong>
+                    <div className='text-black text-[0.8em] flex items-center gap-2'><strong>Complexity:</strong>
                     <div className='grid grid-cols-3 w-10'>
                         <div className={`w-3 h-3 rounded-[50%] bg-orange-enphasis`}></div>
                         <div className={`w-3 h-3 rounded-[50%] ${params.complexity >= 2? "bg-orange-enphasis":"bg-slate-500"}`}></div>
                         <div className={`w-3 h-3 rounded-[50%] ${params.complexity > 2 ? "bg-orange-enphasis":"bg-slate-500"}`}></div>
                     </div>
-                    </p>
+                    </div>
                     <div className='flex gap-1'>{
                         params.skills.map((currentSkill: string) => {
                             const skillObj: skillObj[] = skills.skills.filter(skill => skill.text.toLowerCase().includes(currentSkill.toLowerCase()));
