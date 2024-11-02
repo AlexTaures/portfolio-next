@@ -2,6 +2,7 @@ import {personal_information as info} from "@/app/data"
 import ReactCountryFlag from 'react-country-flag'
 import photo from '@/resources/images/profilePhoto.jpg'
 import Skills from "@/app/about/Skills/Skills"
+import Image from "next/image"
 function AboutPage() {
   const languages = info.languages.list
   return (
@@ -9,7 +10,7 @@ function AboutPage() {
       {/* personal information */}
       <div className="text-black mt-2 flex flex-wrap justify-center items-center">
         <div className="mx-5">
-          <img src={photo.src} alt="profile-photo" className="w-64 rounded-[50%] shadow-lg shadow-gray-500/75" />
+          <Image src={photo.src} alt="profile-photo" className="w-64 rounded-[50%] shadow-lg shadow-gray-500/75" />
           <p className="text-center mt-2">{info.name}</p>
         </div>
         <div className="grid grid-cols-2 mx-5 my-5 w-[500px] gap-3">

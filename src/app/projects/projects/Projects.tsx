@@ -3,6 +3,7 @@ import { projects as projectsData, skills } from '@/app/data'
 import { formatDate } from '@/app/utils'
 import { SkillsLibrary } from '@/app/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 
 export default function Projects() {
     type skillParameters = {
@@ -21,7 +22,7 @@ export default function Projects() {
                         <p className="text-transparent bg-transparent absolute bottom-0 left-0 w-full h-full flex items-center justify-center text-[2em] blur-sm hover:backdrop-blur-sm hover:bg-black/40 hover:text-white hover:blur-none ease-in duration-500">
                             Click to open
                         </p>
-                        <img src={params.image} alt="project-image"/>
+                        <Image src={params.image} alt="project-image"/>
                     </div>
                 </a>
                 <div className='text-center mb-8'>
@@ -38,9 +39,9 @@ export default function Projects() {
                     </div>
                     </div>
                     <div className='flex gap-1'>{
-                        params.skills.map((currentSkill: string) => {
+                        params.skills.map((currentSkill: string, index) => {
                             const skillObj: skillObj[] = skills.skills.filter(skill => skill.text.toLowerCase().includes(currentSkill.toLowerCase()));
-                            return <FontAwesomeIcon icon={SkillsLibrary[skillObj[0].icon]} style={{color: skillObj[0].defaultColor, fontSize: '1.5em'}}/>
+                            return <FontAwesomeIcon key={index} icon={SkillsLibrary[skillObj[0].icon]} style={{color: skillObj[0].defaultColor, fontSize: '1.5em'}}/>
                         })
                     }</div>
                 </div>
