@@ -1,8 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
-    basePath: '/portfolio-next',
-    assetPrefix: '/portfolio-next/'
-};
+/** @type {import('next').NextConfig} */ 
+
+const imagesConf = {
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'alextaures.github.io',
+          port: '',
+          pathname: '/portfolio/static/media/**',
+        },
+      ],
+    },
+  }
+
+const nextConfig = {...imagesConf};
 
 export default nextConfig;
