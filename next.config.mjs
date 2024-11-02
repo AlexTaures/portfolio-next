@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */ 
-
-const imagesConf = {
+const nextConfig = {
     images: {
       remotePatterns: [
         {
@@ -11,8 +10,10 @@ const imagesConf = {
         },
       ],
     },
-  }
-
-const nextConfig = {...imagesConf};
-
-export default nextConfig;
+    reactStrictMode: true,
+    basePath: '/portfolio-next',  // El nombre de tu repositorio
+    assetPrefix: '/portfolio-next/',
+  };
+  
+  export default nextConfig;
+  
