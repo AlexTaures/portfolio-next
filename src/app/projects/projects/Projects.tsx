@@ -22,7 +22,7 @@ export default function Projects() {
                         <p className="text-transparent bg-transparent absolute bottom-0 left-0 w-full h-full flex items-center justify-center text-[2em] blur-sm hover:backdrop-blur-sm hover:bg-black/40 hover:text-white hover:blur-none ease-in duration-500">
                             Click to open
                         </p>
-                        <Image src={params.image} alt="project-image" width={500} height={500}/>
+                        <Image src={params.image} alt="project-image" width={700} height={700}/>
                     </div>
                 </a>
                 <div className='text-center mb-8'>
